@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskManager</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2>TaskManager</h2>
+    <div class="img-background">
+        <img src="./assets/clouds.png" alt="">
+    </div>
+    <div class="content">
+        <div class="content-header">
+            <input type="text" id="inputNewTask" placeholder="Add Task">
+            <button onclick="newTask()" id="btnAddTask" title="Add new Task">
+                <span class="material-symbols-outlined">add_circle</span>
+            </button>
+        </div>
+        <div class="content-body">
+            <ol id="task-List"></ol>
+        </div>
+    </div>
+</body>
+<script src="./dist/script.js"></script>
+</html>

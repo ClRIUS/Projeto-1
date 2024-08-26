@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(#93BBF6, #bed8ff);
+    background-size: cover;
+    font-family: "Edu VIC WA NT Beginner";
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.img-background{
+    position: absolute;
+    z-index: -1; 
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content-header{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#inputNewTask, #btnAddTask{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 10px;
+    background-color: #B3D1FD;
+    color: white;
+}
+
+input::placeholder{
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+}
+
+#inputNewTask{
+    border-radius: 15px;
+    width: 50vw;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#btnAddTask, #btn-ok{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#btnAddTask:hover{
+    background-color: #faef88;
+    transform: scale(1.1);
+}
+
+#inputNewTask:focus{
+    background-color: #fdf6b8;
+    color: rgb(88, 88, 88);
+}
+
+#task-List{
+    padding: 0;
+    color: rgb(88, 88, 88);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1.5rem;
+}
+
+#task-List li{
+    list-style-type: none;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+#task-List li:hover{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+#btn-ok{
+    background-color: rgb(145, 255, 102);
+    color: white;
+    border: none;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-ok:hover{
+    background-color: rgb(102, 248, 44);
+    transform: scale(1.2);
+}
