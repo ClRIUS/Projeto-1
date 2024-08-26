@@ -4,7 +4,7 @@ Apresentação projeto 1 (Restic36) - Unidade 03
 # Descrição do projeto
 O projeto tem como objetivo o controle de pequenas tarefas diárias, onde você pode inseri-las, e, ao concluir cada tarefa você pode estar utilizando o botão verde para que ela desapareça da lista de tarefas pendentes.
 
-![Telas do projeto](assets/img/TaskManager)
+![Telas do projeto](/assets/img/TaskManager.png)
 
 ## Pré-requisitos
 
